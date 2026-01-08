@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Luxury Cream Theme */
+    --background: 40 30% 96%;
+    --foreground: 25 30% 15%;
+
+    --card: 40 35% 98%;
+    --card-foreground: 25 30% 15%;
+
+    --popover: 40 35% 98%;
+    --popover-foreground: 25 30% 15%;
+
+    /* Rich Gold Primary */
+    --primary: 38 70% 45%;
+    --primary-foreground: 40 30% 98%;
+
+    /* Warm Secondary */
+    --secondary: 35 25% 88%;
+    --secondary-foreground: 25 30% 20%;
+
+    /* Muted elegant tones */
+    --muted: 40 20% 90%;
+    --muted-foreground: 25 20% 45%;
+
+    /* Gold accent */
+    --accent: 38 70% 45%;
+    --accent-foreground: 40 30% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 30% 82%;
+    --input: 35 30% 82%;
+    --ring: 38 70% 45%;
+
+    --radius: 0.5rem;
+
+    /* Custom luxury variables */
+    --gold: 38 70% 45%;
+    --gold-light: 40 55% 60%;
+    --gold-dark: 35 75% 32%;
+    --champagne: 40 40% 85%;
+    --cream: 40 30% 96%;
+    --charcoal: 25 20% 20%;
+    --deep-black: 25 25% 12%;
+
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(38 70% 45%), hsl(40 55% 60%));
+    --gradient-cream: linear-gradient(180deg, hsl(40 30% 96%), hsl(40 25% 92%));
+    --gradient-shimmer: linear-gradient(90deg, transparent, hsl(38 70% 45% / 0.3), transparent);
+
+    /* Shadows */
+    --shadow-gold: 0 4px 30px hsl(38 70% 45% / 0.15);
+    --shadow-gold-intense: 0 8px 40px hsl(38 70% 45% / 0.25);
+    --shadow-elegant: 0 10px 50px hsl(25 25% 12% / 0.1);
+
+    /* Typography */
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .dark {
+    --background: 25 20% 10%;
+    --foreground: 40 30% 92%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .text-gold-gradient {
+    background: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-light)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gold-glow {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .gold-glow-intense {
+    box-shadow: var(--shadow-gold-intense);
+  }
+
+  .luxury-border {
+    border: 1px solid hsl(var(--gold) / 0.3);
+  }
+
+  .luxury-border-hover {
+    @apply transition-all duration-500;
+    border: 1px solid hsl(var(--gold) / 0.2);
+  }
+
+  .luxury-border-hover:hover {
+    border-color: hsl(var(--gold) / 0.6);
+    box-shadow: var(--shadow-gold);
+  }
+
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-shimmer);
+    animation: shimmer 3s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { left: -100%; }
+    50%, 100% { left: 100%; }
+  }
+
+  .glass-cream {
+    background: hsl(var(--cream) / 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% { box-shadow: 0 0 20px hsl(43 74% 49% / 0.3); }
+    50% { box-shadow: 0 0 40px hsl(43 74% 49% / 0.5); }
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.8s ease-out forwards;
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
