@@ -32,12 +32,12 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <main className="pt-24">
+      <main className="pt-25 mt-16">
         {/* Hero Section */}
-        <section className="relative h-[60vh] overflow-hidden">
+        <section className="relative h-[65vh] overflow-hidden">
           <img
             src={aboutImage}
-            alt="Luxury Jewellery"
+            alt="RamaChary and Sons Jewellery Works"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent" />
@@ -52,7 +52,7 @@ const About = () => {
                   Our Story
                 </span>
                 <h1 className="font-display text-5xl md:text-7xl font-bold mt-4 text-gold-gradient">
-                  About Lumière
+                  About R&S jewelry Works
                 </h1>
               </motion.div>
             </div>
@@ -74,22 +74,19 @@ const About = () => {
                 </h2>
                 <div className="space-y-6 font-body text-lg text-muted-foreground leading-relaxed">
                   <p>
-                    Founded in 1985, Lumière Jewels has been at the forefront of 
-                    luxury jewellery craftsmanship for nearly four decades. Our 
-                    journey began with a simple vision: to create jewellery that 
-                    transcends time and tells stories of love, celebration, and 
-                    legacy.
+                    Rama Chary and Sons Jewellery Works is a family-owned jewelry business that has been serving with dedication and integrity since 1979.
+                     Our brand, established by Rama Chary and continued by his son, Nagaraju Chary, is denoted through their purity, skill, and integrity 
+                     that has originated from small dreams that have now started turning into a name on which all generations have to rely.
                   </p>
                   <p>
-                    Each piece in our collection is a testament to our unwavering 
-                    commitment to excellence. From the initial design sketch to the 
-                    final polish, our master artisans pour their expertise and 
-                    passion into every creation.
+                   Our store is located in Punjagutta, Hyderabad, we offer a thoughtfully curated range of gold, silver, and diamond jewellery .
+                   The designs offered by us have been rooted in the varied traditions of Indian cultures, together with classics and current trends. 
+                   We specialise in custom-made jewellery, transforming personal ideas into unique, meaningful creations for every special occasion. 
                   </p>
                   <p>
-                    Today, we continue to honor our heritage while embracing 
-                    innovation, creating pieces that blend traditional Indian 
-                    craftsmanship with contemporary elegance.
+                    With our own manufacturing unit and some very trustworthy partners, we monitor everything very carefully. 
+                    All our jewelry is BIS Hallmarked, and that means purity and authenticity. At our brand, we think that quality
+                     jewelry should be accessible, authentic, and genuine—like our very own relationships that we nurture with our very own clients.
                   </p>
                 </div>
               </motion.div>
@@ -102,10 +99,10 @@ const About = () => {
                 className="grid grid-cols-2 gap-4"
               >
                 {[
-                  { number: "38+", label: "Years of Excellence" },
-                  { number: "50K+", label: "Happy Customers" },
-                  { number: "100+", label: "Expert Artisans" },
-                  { number: "1000+", label: "Unique Designs" },
+                  { number: "47+", label: "Years of Excellence" },
+                  { number: "30K+", label: "Happy Customers" },
+                  { number: "1+", label: "Expert Artisans" },
+                  { number: "18+", label: "Unique Designs" },
                 ].map((stat, index) => (
                   <div
                     key={index}

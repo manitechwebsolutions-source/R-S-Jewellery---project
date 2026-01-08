@@ -11,17 +11,17 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["123 Diamond Street", "Mumbai, Maharashtra 400001"],
+    details: ["Pratap Nagar", "Nagarjuna Nagar colony, Yella Reddy Guda, Hyderabad, Telangana 500082"],
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+91 98765 43210", "+91 22 1234 5678"],
+    details: ["+91  9666941524", "+91 8919045331"],
   },
   {
     icon: Mail,
     title: "Email Us",
-    details: ["hello@lumierejewels.com", "support@lumierejewels.com"],
+    details: ["cvnagarajchary@gmail.com"],
   },
   {
     icon: Clock,
@@ -31,16 +31,33 @@ const contactInfo = [
 ];
 
 const Contact = () => {
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Static form - no actual submission
-    alert("Thank you for your message! We will get back to you soon.");
+
+    const form = e.target as HTMLFormElement;
+
+    // Get form values
+    const name = (form[0] as HTMLInputElement).value;
+    const email = (form[1] as HTMLInputElement).value;
+    const message = (form[2] as HTMLTextAreaElement).value;
+
+    // Construct WhatsApp message
+    const whatsappMessage = `Hello! My name is ${name} (${email}).%0A${message}`;
+
+    // Replace with your WhatsApp number in international format (no +)
+    const phoneNumber = "918309599573";
+
+    // Open WhatsApp in a new tab
+    window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, "_blank");
+
+    // Optional: Reset form after sending
+    form.reset();
   };
 
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <main className="pt-24">
+      <main className="pt-25 mt-16">
         {/* Header */}
         <section className="py-16 bg-charcoal">
           <div className="container mx-auto px-6">
@@ -57,7 +74,7 @@ const Contact = () => {
                 Contact Us
               </h1>
               <p className="font-body text-muted-foreground text-lg mt-4 max-w-2xl mx-auto">
-                We'd love to hear from you. Reach out for inquiries, appointments, 
+                We'd love to hear from you. Reach out for inquiries, appointments,
                 or to learn more about our collections.
               </p>
             </motion.div>
@@ -154,13 +171,18 @@ const Contact = () => {
                 </div>
 
                 {/* Map Placeholder */}
-                <div className="bg-card rounded-lg p-4 luxury-border h-64 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="w-12 h-12 text-primary/50 mx-auto mb-3" />
-                    <p className="font-body text-muted-foreground">
-                      123 Diamond Street, Mumbai
-                    </p>
-                  </div>
+                <div className="bg-card rounded-lg p-0 luxury-border h-64 flex items-center overflow-hidden">
+                    <iframe
+                      title="RamaChary & Sons Jewellery Works Location"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6247858363613!2d78.4484746!3d17.4297853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91879a10c10b%3A0x5769393d212b1fec!2sRamaChary%20%26%20Sons%20Jewellery%20Works!5e0!3m2!1sen!2sin!4v1767885717269!5m2!1sen!2sin"
+                      width="125%"
+                      height="113%"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    />
+
                 </div>
               </motion.div>
             </div>

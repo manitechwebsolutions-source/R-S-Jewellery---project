@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Diamond } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from '../assets/logo.png';
+
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -20,9 +22,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <Diamond className="w-8 h-8 text-primary transition-transform duration-500 group-hover:rotate-12" />
+            <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
             <span className="font-display text-2xl font-semibold text-gold-gradient">
-              Lumière
+              Rama Chary&Sons
             </span>
           </Link>
 
@@ -74,7 +76,8 @@ const Navbar = () => {
                   <li key={link.path}>
                     <Link
                       to={link.path}
-                      onClick={() => setIsOpen(false)}
+                      
+                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                       className={`block font-body text-lg tracking-wide transition-colors duration-300 ${
                         location.pathname === link.path
                           ? "text-primary"

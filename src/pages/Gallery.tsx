@@ -172,7 +172,7 @@ const Gallery = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <main className="pt-24">
+      <main className="pt-25 mt-16">
         {/* Header */}
         <section className="py-16 bg-charcoal">
           <div className="container mx-auto px-6">
@@ -338,7 +338,7 @@ const Gallery = () => {
 
                   {/* CTA Button */}
                   <a
-                    href={`https://wa.me/919876543210?text=Hi, I'm interested in ${selectedItem.name} (${selectedItem.price})`}
+                    href={`https://wa.me/918309599573?text=Hi, I'm interested in ${selectedItem.name} (${selectedItem.price})`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-4 bg-primary text-primary-foreground font-body text-center rounded-lg hover:bg-primary/90 transition-colors duration-300"

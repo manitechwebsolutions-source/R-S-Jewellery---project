@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Diamond, Facebook, Instagram, Twitter, Youtube, Clock } from "lucide-react";
+import logo from '../assets/logo.png';
+
 
 const Footer = () => {
   return (
@@ -9,13 +11,13 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <Diamond className="w-8 h-8 text-primary" />
+              <img src={logo} alt="Logo" className="w-20 h-20 object-contain" />
               <span className="font-display text-2xl font-semibold text-gold-gradient">
-                Lumière Jewels
+                RamaChary &Sons Jewelry Works
               </span>
             </Link>
             <p className="font-body text-cream/80 leading-relaxed max-w-md">
-              Crafting timeless elegance since 1985. Each piece tells a story of 
+              Crafting timeless elegance since 1979. Each piece tells a story of 
               artistry, passion, and uncompromising quality. Experience the luxury 
               you deserve.
             </p>
@@ -32,6 +34,7 @@ const Footer = () => {
                   <Link
                     to={link === "Contact Us" ? "/contact" : link === "Home" ? "/" : `/${link.toLowerCase()}`}
                     className="font-body text-cream/70 hover:text-primary transition-colors duration-300"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                   >
                     {link}
                   </Link>
@@ -46,10 +49,11 @@ const Footer = () => {
               Contact
             </h4>
             <ul className="space-y-3 font-body text-cream/70">
-              <li>123 Diamond Street</li>
-              <li>Mumbai, India 400001</li>
-              <li>+91 98765 43210</li>
-              <li>hello@lumierejewels.com</li>
+              <li>Pratap Nagar</li>
+              <li>Nagarjuna Nagar colony, Yella Reddy Guda</li>
+              <li>Hyderabad, Telangana 500082</li>
+              <li> 040-23741524  </li>
+              <li> cvnagarajchary@gmail.com</li>
             </ul>
           </div>
 
@@ -79,7 +83,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-primary/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="font-body text-sm text-cream/60">
-            © 2024 Lumière Jewels. All rights reserved.
+            © 2026 RamaChary & Sons Jewelry Works. All rights reserved.
           </p>
           
           {/* Social Icons */}
@@ -103,6 +107,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    
   );
 };
 
