@@ -64,10 +64,10 @@ const BestSellers = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="font-body text-primary tracking-[0.3em] uppercase text-sm">
-            Most Loved
+            Our
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mt-4 text-gold-gradient">
-            Best Sellers
+            Latest Items
           </h2>
           <p className="font-body text-muted-foreground text-lg mt-4 max-w-2xl mx-auto">
             Our customers' favorite pieces, celebrated for their exceptional 
