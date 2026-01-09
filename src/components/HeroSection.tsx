@@ -14,8 +14,7 @@ const HeroSection = () => {
           alt="Luxury Diamond Necklace"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/30" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/30" />
+        
       </div>
 
       {/* Floating Gold Particles */}
@@ -60,9 +59,9 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="text-gold-gradient">Crafted</span> to Shine.
+            <span className="text-gold-gradient">Crafted</span><span className="text-gold-gradient">to Shine.</span> 
             <br />
-            <span className="text-foreground">Designed to</span>{" "}
+            <span className="text-gold-gradient">Designed to</span>{" "}
             <span className="text-gold-gradient">Impress.</span>
           </motion.h1>
 
