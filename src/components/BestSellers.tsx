@@ -11,42 +11,42 @@ const bestSellers = [
   {
     id: 1,
     name: "Royal Heritage Necklace",
-    price: "₹2,45,000",
+    price: "",
     rating: 5,
     image: goldNecklace,
   },
   {
     id: 2,
     name: "Eternal Promise Ring",
-    price: "₹1,85,000",
+    price: "",
     rating: 5,
     image: diamondRing,
   },
   {
     id: 3,
     name: "Bridal Elegance Set",
-    price: "₹4,50,000",
+    price: "",
     rating: 5,
     image: bridalSet,
   },
   {
     id: 4,
     name: "Golden Dynasty Bangles",
-    price: "₹95,000",
+    price: "",
     rating: 4,
     image: bangles,
   },
   {
     id: 5,
     name: "Chandelier Earrings",
-    price: "₹1,25,000",
+    price: "",
     rating: 5,
     image: earrings,
   },
   {
     id: 6,
     name: "Ruby Heart Pendant",
-    price: "₹78,000",
+    price: "",
     rating: 4,
     image: pendant,
   },
@@ -70,8 +70,8 @@ const BestSellers = () => {
             Latest Items
           </h2>
           <p className="font-body text-muted-foreground text-lg mt-4 max-w-2xl mx-auto">
-            Our customers' favorite pieces, celebrated for their exceptional 
-            beauty and craftsmanship.
+            celebrated for their exceptional beauty and craftsmanship.
+            
           </p>
         </motion.div>
 

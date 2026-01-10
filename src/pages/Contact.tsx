@@ -11,7 +11,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["Pratap Nagar", "Nagarjuna Nagar colony, Yella Reddy Guda, Hyderabad, Telangana 500082"],
+    details: ["#8-3-952/10/1/1", "Panjagutta colony, Srinagar Colony, Hyderabad 500016"],
   },
   {
     icon: Phone,

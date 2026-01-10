@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Diamond } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from '../assets/logo.png';
+import logo from '../assets/logoo.png';
 
 
 const navLinks = [
@@ -22,9 +22,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
-            <span className="font-display text-2xl font-semibold text-gold-gradient">
-              Rama Chary&Sons
+            <img src={logo} alt="Logo" className="w-20 h-20 object-contain" />
+            <span className="font-display text-2xl font-semibold text-gold">
+              RamaChary&Sons Jewellery Works
+              <h6 className="text-sm font-normal text-foreground/80">Our Renown is Our Own Customer</h6>
             </span>
           </Link>
 

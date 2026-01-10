@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Diamond, Facebook, Instagram, Twitter, Youtube, Clock } from "lucide-react";
-import logo from '../assets/logo.png';
+import logo from '../assets/logoo.png';
 
 
 const Footer = () => {
@@ -49,9 +49,8 @@ const Footer = () => {
               Contact
             </h4>
             <ul className="space-y-3 font-body text-cream/70">
-              <li>Pratap Nagar</li>
-              <li>Nagarjuna Nagar colony, Yella Reddy Guda</li>
-              <li>Hyderabad, Telangana 500082</li>
+              <li>#8-3-952/10/1/1</li>
+              <li>Panjagutta colony, Srinagar Colony, Hyderabad 500016</li>
               <li> 040-23741524  </li>
               <li> cvnagarajchary@gmail.com</li>
             </ul>
