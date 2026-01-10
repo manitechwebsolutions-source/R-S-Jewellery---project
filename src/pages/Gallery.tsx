@@ -6,12 +6,133 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import goldNecklace from "@/assets/gold-necklace.jpg";
 import diamondRing from "@/assets/diamond-ring.jpg";
+import ring1 from "@/assets/ring1.png";
+import ring2 from "@/assets/ring2.png";
+import ring3 from "@/assets/ring3.png";
+import ring4 from "@/assets/ring4.png";
+import ring5 from "@/assets/ring5.png";
+import ring6 from "@/assets/ring6.png";
+import ring7 from "@/assets/ring7.png";
+import ring8 from "@/assets/ring8.png";
+import ring9 from "@/assets/ring9.png";
+import ring10 from "@/assets/ring10.png";
+import ring11 from "@/assets/ring11.png";
+import ring12 from "@/assets/ring12.png";
+import ring13 from "@/assets/ring13.png";
+import ring14 from "@/assets/ring14.png";
+import ring15 from "@/assets/ring15.png";
+import ring16 from "@/assets/ring16.png";
+import ring17 from "@/assets/ring17.png";
+import ring18 from "@/assets/ring18.png"; 
+import ring19 from "@/assets/ring19.png";
+import ring20 from "@/assets/ring20.png";
+import ring21 from "@/assets/ring21.png";
+import ring22 from "@/assets/ring22.png";
+import ring23 from "@/assets/ring23.png";
+import ring24 from "@/assets/ring24.png";
+import ring25 from "@/assets/ring25.png"; 
+import ring26 from "@/assets/ring26.png";
+import ring27 from "@/assets/ring27.png";
+import ring28 from "@/assets/ring28.png";
 import bridalSet from "@/assets/bridal-set.jpg";
-import bangles from "@/assets/bangles.jpg";
-import earrings from "@/assets/earrings.jpg";
-import pendant from "@/assets/pendant.jpg";
+import bangles13 from "@/assets/bangle13.jpg";
+import bangles1 from "@/assets/bangle1.jpg";
+import bangles2 from "@/assets/bangle2.jpg";
+import bangles3 from "@/assets/bangle3.jpg";
+import bangles4 from "@/assets/bangle4.jpg";
+import bangles5 from "@/assets/bangle5.jpg";
+import bangles6 from "@/assets/bangle6.jpg";
+import bangles7 from "@/assets/bangle7.jpg";
+import bangles8 from "@/assets/bangle8.jpg";
+import bangles9 from "@/assets/bangle9.jpg";
+import bangles10 from "@/assets/bangle10.jpg";
+import bangles11 from "@/assets/bangle11.jpg";
+import bangles12 from "@/assets/bangle12.jpg";
+import bangles14 from "@/assets/bangle14.jpg";
+import earrings1 from "@/assets/earrings1.jpg";
+import earrings2 from "@/assets/earrings2.jpg";
+import earrings3 from "@/assets/earrings3.jpg";
+import earrings4 from "@/assets/earrings4.jpg";
+import earrings5 from "@/assets/earrings5.jpg";
+import earrings6 from "@/assets/earrings6.jpg";
+import earrings7 from "@/assets/earrings7.jpg";
+import earrings8 from "@/assets/earrings8.jpg";
+import earring9 from "@/assets/earring9.jpg";
+import earring10 from "@/assets/earring10.jpg";
+import earring11 from "@/assets/earring11.jpg";
+import earring12 from "@/assets/earring12.jpg";
+import earring13 from "@/assets/earring13.jpg";
+import earring14 from "@/assets/earring14.jpg"; 
+import earring15 from "@/assets/earring15.jpg";
+import earring16 from "@/assets/earring16.jpg";
+import earring17 from "@/assets/earring17.jpg";
+import earring18 from "@/assets/earring18.jpg";
+import chain1 from "@/assets/chain1.jpg";
+import chain2 from "@/assets/chain2.jpg";
+import chain3 from "@/assets/chain3.jpg";
+import chain4 from "@/assets/chain4.jpg";
+import chain5 from "@/assets/chain5.jpg";
+import chain6 from "@/assets/chain6.jpg";
+import chain7 from "@/assets/chain7.jpg";
+import chain8 from "@/assets/chain8.jpg";
+import chain9 from "@/assets/chain9.jpg";
+import chain10 from "@/assets/chain10.jpg";
+import chain11 from "@/assets/chain11.jpg";
+import bracelets1 from "@/assets/bracelets1.jpg";
+import bracelets2 from "@/assets/bracelets2.jpg";
+import bracelets3 from "@/assets/bracelets3.jpg";
+import bracelets4 from "@/assets/bracelets4.jpg";   
+import bracelets5 from "@/assets/bracelets5.jpg";
+import bracelets6 from "@/assets/bracelets6.jpg";
+import bracelets7 from "@/assets/bracelets7.jpg";
+import bracelets8 from "@/assets/bracelets8.jpg";
+import bracelets9 from "@/assets/bracelets9.jpg";
+import champasarelu1 from "@/assets/champasarelu1.jpg";
+import champasarelu2 from "@/assets/champasarelu2.jpg"; 
+import champasarelu3 from "@/assets/champasarelu3.jpg";
+import champasarelu4 from "@/assets/champasarelu4.jpg";
+import champasarelu5 from "@/assets/champasarelu5.jpg";
+import champasarelu6 from "@/assets/champasarelu6.jpg";
+import champasarelu7 from "@/assets/champasarelu7.jpg";
+import champasarelu8 from "@/assets/champasarelu8.jpg";
+import Blackbreads1 from "@/assets/blackbeads1.jpg";
+import Blackbreads2 from "@/assets/blackbeads2.jpg";
+import Blackbreads3 from "@/assets/blackbeads3.jpg";
+import Blackbreads4 from "@/assets/blackbeads4.jpg";
+import Blackbreads5 from "@/assets/blackbeads5.jpg";
+import Blackbreads6 from "@/assets/blackbeads6.jpg";
+import Blackbreads7 from "@/assets/blackbeads7.jpg";
+import Blackbreads8 from "@/assets/blackbreads8.jpg";
+import Blackbreads9 from "@/assets/blackbeads9.jpg";
+import Blackbreads10 from "@/assets/blackbreads10.jpg";
+import vaddanamu1 from "@/assets/vaddanamulu (1).png";
+import vaddanamu2 from "@/assets/vaddanamulu (2).png";
+import vaddanamu3 from "@/assets/vaddanamulu (3).png";
+import vaddanamu4 from "@/assets/vaddanamulu (4).png";
+import vaddanamu5 from "@/assets/vaddanamulu (5).png";
+import vaddanamu6 from "@/assets/vaddanamulu (6).png";
+import vaddanamu7 from "@/assets/vaddanamulu (7).png";
+import vaddanamu8 from "@/assets/vaddanamulu (8).png";
+import vankeelu1 from "@/assets/vankeelu (1).png";
+import vankeelu2 from "@/assets/vankeelu (2).png";
+import vankeelu3 from "@/assets/vankeelu (3).png";
+import vankeelu4 from "@/assets/vankeelu (4).png";
+import vankeelu5 from "@/assets/vankeelu (5).png";
+import vankeelu6 from "@/assets/vankeelu (6).png";
+import vankeelu7 from "@/assets/vankeelu (7).png";
+import choukar1 from "@/assets/choukar1.jpg";
+import choukar2 from "@/assets/choukar2.jpg";
+import choukar3 from "@/assets/choukar3.jpg";
+import choukar4 from "@/assets/choukar4.jpg";
+import choukar5 from "@/assets/choukar5.jpg";
+import choukar6 from "@/assets/choukar6.jpg";
+import choukar7 from "@/assets/choukar7.jpg";
+import choukar8 from "@/assets/choukar8.jpg";
+import choukar9 from "@/assets/choukar9.jpg";
+import choukar10 from "@/assets/choukar10.jpg";
 
-const categories = ["All", "Necklaces", "Rings", "Bridal", "Bangles", "Earrings", "Pendants"];
+
+const categories = ["All", "Necklaces", "Rings", "Vankeelu", "Bangles", "Earrings", "Chains","Bracelets", "Champasarelu","BlackBeads","Vaddanamulu","Choukar"];
 
 interface GalleryItem {
   id: number;
@@ -31,133 +152,1410 @@ const galleryItems: GalleryItem[] = [
     name: "Royal Heritage Necklace", 
     category: "Necklaces", 
     image: goldNecklace,
-    description: "A stunning 22K gold necklace featuring intricate traditional craftsmanship. This masterpiece showcases delicate filigree work and is adorned with precious gemstones, perfect for weddings and grand celebrations.",
-    material: "22K Gold, Ruby, Emerald",
-    weight: "45 grams",
-    price: "₹2,85,000",
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
     rating: 5
   },
-  { 
-    id: 2, 
-    name: "Eternal Promise Ring", 
-    category: "Rings", 
-    image: diamondRing,
-    description: "An exquisite solitaire diamond ring set in 18K white gold. The brilliant-cut diamond sparkles with exceptional clarity and fire, symbolizing eternal love and commitment.",
-    material: "18K White Gold, VVS Diamond",
-    weight: "4.5 grams",
-    price: "₹1,95,000",
-    rating: 5
-  },
+  
   { 
     id: 3, 
     name: "Bridal Elegance Set", 
     category: "Bridal", 
     image: bridalSet,
-    description: "A complete bridal jewellery set featuring a magnificent necklace, matching earrings, and bangles. Crafted with 22K gold and embellished with kundan work and precious stones.",
-    material: "22K Gold, Kundan, Polki",
-    weight: "180 grams (set)",
-    price: "₹8,50,000",
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
     rating: 5
   },
   { 
     id: 4, 
     name: "Golden Dynasty Bangles", 
     category: "Bangles", 
-    image: bangles,
-    description: "A set of four intricately designed 22K gold bangles featuring traditional motifs. Each bangle is handcrafted with attention to detail, perfect for everyday elegance or festive occasions.",
-    material: "22K Gold",
-    weight: "60 grams (set of 4)",
-    price: "₹3,60,000",
+    image: bangles13,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
     rating: 4
   },
   { 
     id: 5, 
-    name: "Chandelier Earrings", 
-    category: "Earrings", 
-    image: earrings,
-    description: "Elegant chandelier-style earrings featuring cascading gold drops adorned with pearls and diamonds. These statement pieces add glamour to any ensemble.",
-    material: "18K Gold, Pearls, Diamonds",
-    weight: "15 grams",
-    price: "₹95,000",
-    rating: 5
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles1,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
   },
   { 
     id: 6, 
-    name: "Ruby Heart Pendant", 
-    category: "Pendants", 
-    image: pendant,
-    description: "A romantic heart-shaped pendant featuring a natural Burmese ruby surrounded by brilliant diamonds. Set in 18K rose gold with a delicate chain included.",
-    material: "18K Rose Gold, Ruby, Diamonds",
-    weight: "8 grams",
-    price: "₹1,25,000",
-    rating: 5
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles2,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
   },
   { 
     id: 7, 
-    name: "Kundan Necklace Set", 
-    category: "Necklaces", 
-    image: goldNecklace,
-    description: "A traditional Kundan necklace set featuring elaborate gold work and colorful gemstones. This heritage piece represents the finest of Indian jewellery craftsmanship.",
-    material: "22K Gold, Kundan, Meenakari",
-    weight: "75 grams",
-    price: "₹4,50,000",
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles3,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
     rating: 4
   },
   { 
     id: 8, 
-    name: "Solitaire Diamond Ring", 
-    category: "Rings", 
-    image: diamondRing,
-    description: "A timeless solitaire ring featuring a 1-carat brilliant-cut diamond. The classic four-prong setting in platinum allows maximum light to enhance the diamond's brilliance.",
-    material: "Platinum, 1ct Diamond",
-    weight: "5 grams",
-    price: "₹3,50,000",
-    rating: 5
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles4,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
   },
   { 
     id: 9, 
-    name: "Complete Bridal Collection", 
-    category: "Bridal", 
-    image: bridalSet,
-    description: "An opulent bridal collection including a statement necklace, choker, earrings, maang tikka, and bangles. Each piece features exquisite Polki diamonds and traditional craftsmanship.",
-    material: "22K Gold, Polki Diamonds",
-    weight: "250 grams (full set)",
-    price: "₹12,00,000",
-    rating: 5
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles5,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
   },
   { 
     id: 10, 
-    name: "Traditional Gold Bangles", 
+    name: "Golden Dynasty Bangles", 
     category: "Bangles", 
-    image: bangles,
-    description: "Classic 22K gold bangles with delicate temple-inspired carvings. These timeless pieces blend traditional aesthetics with contemporary wearability.",
-    material: "22K Gold",
-    weight: "40 grams (pair)",
-    price: "₹2,40,000",
+    image: bangles6,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
     rating: 4
   },
   { 
     id: 11, 
-    name: "Diamond Drop Earrings", 
-    category: "Earrings", 
-    image: earrings,
-    description: "Sophisticated drop earrings featuring pear-shaped diamonds that catch light beautifully. Set in 18K white gold with secure push-back closures.",
-    material: "18K White Gold, Diamonds",
-    weight: "10 grams",
-    price: "₹1,75,000",
-    rating: 5
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles7,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
   },
   { 
     id: 12, 
-    name: "Emerald Gold Pendant", 
-    category: "Pendants", 
-    image: pendant,
-    description: "An elegant pendant featuring a natural Colombian emerald surrounded by a halo of diamonds. The vibrant green gemstone is set in 22K yellow gold.",
-    material: "22K Gold, Emerald, Diamonds",
-    weight: "12 grams",
-    price: "₹1,85,000",
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles8,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  { 
+    id: 13, 
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles9,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  { 
+    id: 14, 
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles10,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  { 
+    id: 15, 
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles11,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  { 
+    id: 16, 
+    name: "Golden Dynasty Bangles", 
+    category: "Bangles", 
+    image: bangles12,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  { 
+    id: 17, 
+    name: "Chandelier Earrings", 
+    category: "Earrings", 
+    image: earrings8,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
     rating: 5
   },
+  { 
+    id: 18, 
+    name: "Ruby Heart Pendant", 
+    category: "Chains", 
+    image: chain1,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 19, 
+    name: "Kundan Necklace Set", 
+    category: "Necklaces", 
+    image: goldNecklace,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  { 
+    id: 20, 
+    name: "Solitaire Diamond Ring", 
+    category: "Rings", 
+    image: diamondRing,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 21, 
+    name: "Complete Bridal Collection", 
+    category: "Bridal", 
+    image: bridalSet,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 22, 
+    name: "Traditional Gold Bangles", 
+    category: "Bangles", 
+    image: bangles14,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  { 
+    id: 23, 
+    name: "Diamond Drop Earrings", 
+    category: "Earrings", 
+    image: earrings7,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 24, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain2,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 25, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain3,
+    description: " ",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 26, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain4,
+    description: " ",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 27, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain5,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 28, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain6,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 29, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain7,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 30, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain8,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 31, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain9,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 32, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain10,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 33, 
+    name: "Emerald Gold Pendant", 
+    category: "Chains", 
+    image: chain11,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 34, 
+    name: "Chandelier Earrings", 
+    category: "Earrings", 
+    image: earrings6,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 35, 
+    name: "Chandelier Earrings", 
+    category: "Earrings", 
+    image: earrings5,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 36, 
+    name: "Chandelier Earrings", 
+    category: "Earrings", 
+    image: earrings4,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 37, 
+    name: "Chandelier Earrings", 
+    category: "Earrings", 
+    image: earrings3,
+    description: " ",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 38, 
+    name: "Chandelier Earrings", 
+    category: "Earrings", 
+    image: earrings2,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  { 
+    id: 39, 
+    name: "", 
+    category: "", 
+    image: earrings1,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  {
+    id: 40,
+    name: "Elegant Gold Bracelet",
+    category: "Bracelets",
+    image: bracelets1,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 4
+  },
+  {
+    id: 41,
+    name: " Bracelet",
+    category: "Bracelets",
+    image: bracelets2,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5 
+  },
+  {
+    id: 42,
+    name: " Bracelet",
+    category: "Bracelets",
+    image: bracelets3,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  {
+    id: 43,
+    name: " Bracelet",
+    category: "Bracelets",
+    image: bracelets4,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  {
+    id: 44,
+    name: "Bracelet",
+    category: "Bracelets",
+    image: bracelets5,
+    description: "",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  {
+    id: 45,
+    name: " Bracelet",
+    category: "Bracelets",
+    image: bracelets6,
+    description: " ",
+    material: "",
+    weight: "",
+    price: "",
+    rating: 5
+  },
+  {
+      id :46,
+      name : ' Bracelet',
+      category : 'Bracelets',
+      image : bracelets7,
+      description : '',
+      material : '',
+      weight : '',
+      price : '',
+      rating : 5
+   },
+   {
+       id :47,
+       name :'Bracelet',
+       category :'Bracelets',
+       image : bracelets8,
+       description :'',
+       material :'',
+       weight :'',
+       price :'',
+       rating :5
+   },
+   {
+       id :48,
+       name :' Bracelet',
+       category :'Bracelets',
+       image : bracelets9,
+       description :'',
+       material :'',
+       weight :'',
+       price :'',
+       rating :5
+   },
+   {
+      id :49,
+      name :"Champasarelu Necklace",
+      category :"Champasarelu",
+      image : champasarelu1,
+      description :"",
+      material :"",
+      weight :"",
+      price :"",
+      rating : 5
+   },
+   {
+      id :50,
+      name :"Champasarelu Necklace",
+      category :"Champasarelu",
+      image : champasarelu2,
+      description :" ",
+      material :"",
+      weight :"",
+      price :"",
+      rating : 5
+   },
+   {
+      id :51,
+      name :"Champasarelu Necklace",
+      category :"Champasarelu",
+      image : champasarelu3,
+      description :"",
+      material :"",
+      weight :"",
+      price :"",
+      rating : 5
+   },
+   {
+      id :52,
+      name :"Champasarelu Necklace",
+      category :"Champasarelu",
+      image : champasarelu4,
+      description :"",
+      material :"",
+      weight :"",
+      price :"",
+      rating : 5
+   },
+   {
+     id :53,
+     name :'Champasarelu Necklace',
+     category :'Champasarelu',
+     image : champasarelu5,
+     description :'',
+     material :'',
+     weight :'',
+     price :'',
+     rating : 5
+  },
+  {
+    id :54,
+    name :'Champasarelu Necklace',
+    category :'Champasarelu',
+    image : champasarelu6,
+    description :'',
+    material :'',
+    weight :'',
+    price :'',
+    rating : 5
+ },
+ {
+   id :55,
+   name :'Champasarelu Necklace',
+   category :'Champasarelu',
+   image : champasarelu7,
+   description :'',
+   material :'',
+   weight :'',
+   price :'',
+   rating : 5
+},
+{
+ id :56,
+ name :'Champasarelu Necklace',
+ category :'Champasarelu',
+ image : champasarelu8,
+ description :'',
+ material :'',
+ weight :'',
+ price :'',
+ rating : 5
+},
+{
+  id :57,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads1,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :58,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads2,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :59,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads3,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :60, 
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads4,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :61,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads5,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :62,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads6,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :63,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads7,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :64,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads8,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :65,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads9,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :66,
+  name :"Black Beads Necklace",
+  category :"BlackBeads",
+  image : Blackbreads10,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 4
+},
+{
+  id :67,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring9,
+  description :" ",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5
+},
+{
+  id :68,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring10,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5  
+},
+{
+  id :69,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring11,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5  
+},
+{
+  id :70,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring12,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5  
+},
+{
+  id :71,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring13,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5  
+},
+{ 
+  id :72,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring14,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5  
+},
+{
+  id :73,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring15,
+  description :" ",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5  
+},
+{
+  id :74,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring16,
+  description :" ",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5    
+},
+{
+  id :75,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring17,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5
+},
+{
+  id :76,
+  name :"Earings Set",
+  category :"Earrings",
+  image : earring18,
+  description :"",
+  material :"",
+  weight :"",
+  price :"",
+  rating : 5
+},
+{
+  id :77,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring1,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :78,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring2,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4    
+},
+{
+  id :79,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring3,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4    
+},
+{
+  id :80,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring4,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4    
+},
+{
+  id :81,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring5,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :82,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring6,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :83,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring7,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :84,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring8,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+} ,
+{
+  id :85,
+  name : "Gold Ring",
+  category : "Rings",
+  image : ring9,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4    
+},
+{
+  id :86,
+  name : "Gold Ring",
+  category : "Rings",   
+  image : ring10,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :87,
+  name : "Gold Ring",
+  category : "Rings",   
+  image : ring11,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :88, 
+  name : "Gold Ring",
+  category : "Rings",   
+  image : ring12,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4      
+},
+{
+  id :89,   
+  name : "Gold Ring",
+  category : "Rings",   
+  image : ring13,
+  description : " ",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4      
+},
+{
+  id :90, 
+  name : "Gold Ring",
+  category : "Rings",   
+  image : ring14,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :91, 
+  name : "Gold Ring",
+  category : "Rings",  
+  image : ring15,
+  description : "",   
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :92, 
+  name : "Gold Ring",
+  category : "Rings",  
+  image : ring16,
+  description : "",   
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :93,
+  name : "Gold Ring",
+  category : "Rings",   
+  image : ring17,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :94, 
+  name : "Gold Ring",
+  category : "Rings",   
+  image : ring18,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id: 95, 
+  name: "Diamond Studded Ring",
+  category: "Rings",
+  image: ring19,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5 
+},
+{
+  id: 96, 
+  name: "Diamond Studded Ring",
+  category: "Rings",
+  image: ring20,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{
+  id: 97, 
+  name: "Diamond Studded Ring",
+  category: "Rings",
+  image: ring21,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{
+  id: 98, 
+  name: "Diamond Studded Ring",
+  category: "Rings",
+  image: ring22,
+  description: " ",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{ 
+  id: 99, 
+  name: "Diamond Studded Ring", 
+  category: "Rings", 
+  image: ring23,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{ 
+  id: 100, 
+  name: "Diamond Studded Ring", 
+  category: "Rings", 
+  image: ring24,
+  description: " ",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{
+  id: 101, 
+  name: "Diamond Studded Ring", 
+  category: "Rings", 
+  image: ring25,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{
+  id: 102,  
+  name: "Diamond Studded Ring",
+  category: "Rings", 
+  image: ring26,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5 
+},
+{
+  id: 103,  
+  name: "Diamond Studded Ring",
+  category: "Rings", 
+  image: ring27,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{
+  id: 104,  
+  name: "Diamond Studded Ring",
+  category: "Rings", 
+  image: ring28,
+  description: "",
+  material: "",
+  weight: "",
+  price: "",
+  rating: 5
+},
+{
+  id: 105,
+  name : "Vaddanamulu",
+  category : "Vaddanamulu",
+  image : vaddanamu1,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :106,
+  name : "Vaddanamulu",
+  category : "Vaddanamulu",
+  image : vaddanamu2,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :107,
+  name : "Vaddanamulu",
+  category : "Vaddanamulu",
+  image : vaddanamu3,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :108, 
+  name : "Vaddanamulu",
+  category : "Vaddanamulu",
+  image : vaddanamu4,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :109,
+  name : "Vaddanamulu",
+  category : "Vaddanamulu",
+  image : vaddanamu5,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :110,
+  name : "Vaddanamulu",
+  category : "Vaddanamulu",
+  image : vaddanamu6,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :111,
+  name : "Vaddanamulu",
+  category : "Vaddanamulu", 
+  image : vaddanamu7,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :112,
+  name : "Vaddanamulu",
+  category : "Vaddanamulu",
+  image : vaddanamu8,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :113,
+  name : "vankeelu",
+  category : "Vankeelu",
+  image : vankeelu1,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :114,
+  name : "vankeelu",
+  category : "Vankeelu",
+  image : vankeelu2,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :115,
+  name : "vankeelu",
+  category : "Vankeelu",
+  image : vankeelu3,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+} ,
+{
+  id :116,
+  name : "vankeelu",
+  category : "Vankeelu",
+  image : vankeelu4,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :117,
+  name : "vankeelu",
+  category : "Vankeelu",
+  image : vankeelu5,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :118,
+  name : "vankeelu",
+  category : "Vankeelu",
+  image : vankeelu6,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :119,
+  name : "vankeelu",
+  category : "Vankeelu",
+  image : vankeelu7,  
+  description : "",
+  material : "",
+  weight : "", 
+  price : "",
+  rating : 5  
+},
+{
+  id :120,
+  name : "Choukar",
+  category : "Choukar",
+  image : choukar1,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :121,
+  name : "Choukar",
+  category : "Choukar",
+  image : choukar2,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :122,
+  name : "Choukar",
+  category : "Choukar",
+  image : choukar3,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :123,
+  name : "Choukar",
+  category : "Choukar",
+  image : choukar4,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :124,  
+  name : "Choukar",
+  category : "Choukar",
+  image : choukar5,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :125,  
+  name : "Choukar",
+  category : "Choukar",
+  image : choukar6,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :126,
+  name : "Choukar",
+  category : "Choukar",
+  image : choukar7,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :127,
+  name : "Choukar",
+  category : "Choukar", 
+  image : choukar8,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :128,
+  name : "Choukar",
+  category : "Choukar", 
+  image : choukar9,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :129,
+  name : "Choukar",
+  category : "Choukar", 
+  image : choukar10,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+}
 ];
 
 const Gallery = () => {
@@ -323,15 +1721,15 @@ const Gallery = () => {
                   {/* Specifications */}
                   <div className="space-y-3 mb-6">
                     <div className="flex justify-between py-2 border-b border-primary/10">
-                      <span className="font-body text-muted-foreground">Material</span>
+                      <span className="font-body text-muted-foreground"></span>
                       <span className="font-body text-foreground font-medium">{selectedItem.material}</span>
                     </div>
                     <div className="flex justify-between py-2 border-b border-primary/10">
-                      <span className="font-body text-muted-foreground">Weight</span>
+                      <span className="font-body text-muted-foreground"></span>
                       <span className="font-body text-foreground font-medium">{selectedItem.weight}</span>
                     </div>
                     <div className="flex justify-between py-2">
-                      <span className="font-body text-muted-foreground">Price</span>
+                      <span className="font-body text-muted-foreground"></span>
                       <span className="font-display text-2xl text-primary font-semibold">{selectedItem.price}</span>
                     </div>
                   </div>
