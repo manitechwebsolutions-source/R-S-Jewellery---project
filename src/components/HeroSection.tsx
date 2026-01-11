@@ -82,10 +82,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <Link to="/gallery">
-              <Button variant="hero" size="xl">
-                <Sparkles className="w-5 h-5" />
-                Shop Collection
-              </Button>
+              
             </Link>
             <Link to="/gallery">
               <Button variant="heroOutline" size="xl">
