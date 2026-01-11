@@ -23,7 +23,7 @@ import necklaces15 from "@/assets/necklaces (15).png";
 import necklaces16 from "@/assets/necklaces (16).png";
 import necklaces17 from "@/assets/necklaces (17).png";
 import necklaces18 from "@/assets/necklaces (18).png";
-import diamondRing from "@/assets/diamond-ring.jpg";
+
 import ring1 from "@/assets/ring1.png";
 import ring2 from "@/assets/ring2.png";
 import ring3 from "@/assets/ring3.png";
@@ -377,17 +377,7 @@ const galleryItems: GalleryItem[] = [
     rating: 5
   },
 
-  {
-    id: 20,
-    name: "Solitaire Diamond Ring",
-    category: "Rings",
-    image: diamondRing,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 5
-  },
+ 
   {
     id: 21,
     name: "Complete Bridal Collection",
@@ -828,17 +818,7 @@ const galleryItems: GalleryItem[] = [
     price: "",
     rating: 4
   },
-  {
-    id: 61,
-    name: "Black Beads Necklace",
-    category: "BlackBeads",
-    image: Blackbreads5,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 4
-  },
+  
   {
     id: 62,
     name: "Black Beads Necklace",
@@ -2009,17 +1989,7 @@ const galleryItems: GalleryItem[] = [
   },
 
 
-  {
-    id: 172,
-    name: "Long haaralu",
-    category: "LongHaaralu",
-    image: longhaaralu25,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 5
-  },
+  
   {
     id: 173,
     name: "Long haaralu",
@@ -2031,28 +2001,8 @@ const galleryItems: GalleryItem[] = [
     price: "",
     rating: 5
   },
-  {
-    id: 174,
-    name: "Long haaralu",
-    category: "LongHaaralu",
-    image: longhaaralu27,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 5
-  },
-  {
-    id: 175,
-    name: "Long haaralu",
-    category: "LongHaaralu",
-    image: longhaaralu28,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 5
-  },
+  
+  
   {
     id: 176,
     name: "Long haaralu",
@@ -2064,17 +2014,7 @@ const galleryItems: GalleryItem[] = [
     price: "",
     rating: 5
   },
-  {
-    id: 177,
-    name: "Long haaralu",
-    category: "LongHaaralu",
-    image: longhaaralu30,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 5
-  }
+ 
 ];
 
 const Gallery = () => {
@@ -2271,7 +2211,7 @@ const Gallery = () => {
 
                   {/* CTA Button */}
                   <a
-                    href={`https://wa.me/918309599573?text=Hi, I'm interested in ${selectedItem.name} (${selectedItem.price})`}
+                    href={`https://wa.me/919666941524?text=Hi, I'm interested in ${selectedItem.name} (${selectedItem.price})`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-4 bg-primary text-primary-foreground font-body text-center rounded-lg hover:bg-primary/90 transition-colors duration-300"

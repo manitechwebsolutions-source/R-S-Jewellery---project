@@ -45,7 +45,7 @@ const Contact = () => {
     const whatsappMessage = `Hello! My name is ${name} (${email}).%0A${message}`;
 
     // Replace with your WhatsApp number in international format (no +)
-    const phoneNumber = "918309599573";
+    const phoneNumber = "919666941524";
 
     // Open WhatsApp in a new tab
     window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, "_blank");

@@ -13,7 +13,7 @@ const Footer = () => {
             <Link to="/" className="flex items-center gap-3 mb-6">
               <img src={logo} alt="Logo" className="w-20 h-20 object-contain" />
               <span className="font-display text-2xl font-semibold text-gold-gradient">
-                RamaChary &Sons Jewelry Works
+                Rama Chary & Sons Jewellery Works
               </span>
             </Link>
             <p className="font-body text-cream/80 leading-relaxed max-w-md">

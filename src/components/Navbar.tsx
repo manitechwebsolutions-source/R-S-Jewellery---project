@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-3 group">
             <img src={logo} alt="Logo" className="w-20 h-20 object-contain" />
             <span className="font-display text-2xl font-semibold text-gold">
-              RamaChary&Sons Jewellery Works
+              Rama Chary & Sons Jewellery Works
               <h6 className="text-sm font-normal text-foreground/80">Our Renown is Our Own Customer</h6>
             </span>
           </Link>

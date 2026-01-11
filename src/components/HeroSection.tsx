@@ -59,7 +59,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="text-gold-gradient">Crafted</span><span className="text-gold-gradient">to Shine.</span> 
+            <span className="text-gold-gradient">Crafted</span><span className="text-gold-gradient"> to Shine.</span> 
             <br />
             <span className="text-gold-gradient">Designed to</span>{" "}
             <span className="text-gold-gradient">Impress.</span>

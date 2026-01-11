@@ -52,7 +52,7 @@ const About = () => {
                   Our Story
                 </span>
                 <h1 className="font-display text-5xl md:text-7xl font-bold mt-4 text-gold-gradient">
-                  About R&S jewelry Works
+                  About R&S jewellery Works
                 </h1>
               </motion.div>
             </div>
@@ -74,7 +74,7 @@ const About = () => {
                 </h2>
                 <div className="space-y-6 font-body text-lg text-muted-foreground leading-relaxed">
                   <p>
-                    Rama Chary and Sons Jewellery Works is a family-owned jewelry business that has been serving with dedication and integrity since 1979.
+                    Rama Chary and Sons Jewellery Works is a family-owned jewellery business that has been serving with dedication and integrity since 1979.
                      Our brand, established by Rama Chary and continued by his son, Nagaraju Chary, is denoted through their purity, skill, and integrity 
                      that has originated from small dreams that have now started turning into a name on which all generations have to rely.
                   </p>
