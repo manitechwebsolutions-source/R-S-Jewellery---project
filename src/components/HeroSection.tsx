@@ -85,7 +85,7 @@ const HeroSection = () => {
               
             </Link>
             <Link to="/gallery">
-              <Button variant="heroOutline" size="xl">
+              <Button variant="hero" size="xl">
                 <Eye className="w-5 h-5" />
                 View Gallery
               </Button>
