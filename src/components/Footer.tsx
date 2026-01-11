@@ -85,7 +85,7 @@ const Footer = () => {
             © 2026 RamaChary & Sons Jewelry Works. All rights reserved.
           </p>
           
-          {/* Social Icons */}
+          {/* Social Icons 
           <div className="flex items-center gap-4">
             {[
               { Icon: Facebook, href: "#" },
@@ -102,7 +102,7 @@ const Footer = () => {
                 <Icon size={18} />
               </a>
             ))}
-          </div>
+          </div>*/}
         </div>
       </div>
     </footer>

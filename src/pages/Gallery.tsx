@@ -4,7 +4,25 @@ import { X, Star } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import goldNecklace from "@/assets/gold-necklace.jpg";
+
+import necklaces1 from "@/assets/necklaces (1).png";
+import necklaces2 from "@/assets/necklaces (2).png";
+import necklaces3 from "@/assets/necklaces (3).png";
+import necklaces4 from "@/assets/necklaces (4).png";
+import necklaces5 from "@/assets/necklaces (5).png";
+import necklaces6 from "@/assets/necklaces (6).png";
+import necklaces7 from "@/assets/necklaces (7).png";
+import necklaces8 from "@/assets/necklaces (8).png";
+import necklaces9 from "@/assets/necklaces (9).png";
+import necklaces10 from "@/assets/necklaces (10).png";
+import necklaces11 from "@/assets/necklaces (11).png";
+import necklaces12 from "@/assets/necklaces (12).png";
+import necklaces13 from "@/assets/necklaces (13).png";
+  import necklaces14 from "@/assets/necklaces (14).png";
+import necklaces15 from "@/assets/necklaces (15).png";
+import necklaces16 from "@/assets/necklaces (16).png";
+import necklaces17 from "@/assets/necklaces (17).png";
+import necklaces18 from "@/assets/necklaces (18).png";
 import diamondRing from "@/assets/diamond-ring.jpg";
 import ring1 from "@/assets/ring1.png";
 import ring2 from "@/assets/ring2.png";
@@ -130,9 +148,42 @@ import choukar7 from "@/assets/choukar7.jpg";
 import choukar8 from "@/assets/choukar8.jpg";
 import choukar9 from "@/assets/choukar9.jpg";
 import choukar10 from "@/assets/choukar10.jpg";
+import longhaaralu1 from "@/assets/long haaralu (1).png";
+import longhaaralu2 from "@/assets/long haaralu (2).png";
+import longhaaralu3 from "@/assets/long haaralu (3).png";
+import longhaaralu4 from "@/assets/long haaralu (4).png";
+import longhaaralu5 from "@/assets/long haaralu (5).png";
+import longhaaralu6 from "@/assets/long haaralu (6).png";
+import longhaaralu7 from "@/assets/long haaralu (7).png";
+import longhaaralu8 from "@/assets/long haaralu (8).png";
+import longhaaralu9 from "@/assets/long haaralu (9).png";
+import longhaaralu10 from "@/assets/long haaralu (10).png";
+import longhaaralu11 from "@/assets/long haaralu (11).png";
+import longhaaralu12 from "@/assets/long haaralu (12).png";
+import longhaaralu13 from "@/assets/long haaralu (13).png";
+import longhaaralu14 from "@/assets/long haaralu (14).png";
+import longhaaralu15 from "@/assets/long haaralu (15).png";
+import longhaaralu16 from "@/assets/long haaralu (16).png";
+import longhaaralu17 from "@/assets/long haaralu (17).png";
+import longhaaralu18 from "@/assets/long haaralu (18).png";
+import longhaaralu19 from "@/assets/long haaralu (19).png";
+import longhaaralu20 from "@/assets/long haaralu (20).png";
+import longhaaralu21 from "@/assets/long haaralu (21).png";
+import longhaaralu22 from "@/assets/long haaralu (22).png";
+import longhaaralu23 from "@/assets/long haaralu (23).png";
+import longhaaralu24 from "@/assets/long haaralu (24).png";
+import longhaaralu25 from "@/assets/long haaralu (25).png";
+import longhaaralu26 from "@/assets/long haaralu (26).png"; 
+import longhaaralu27 from "@/assets/long haaralu (27).png";
+import longhaaralu28 from "@/assets/long haaralu (28).png";
+import longhaaralu29 from "@/assets/long haaralu (29).png";
+import longhaaralu30 from "@/assets/long haaralu (30).png";
+import longhaaralu31 from "@/assets/long haaralu (31).png";
+import longhaaralu32 from "@/assets/long haaralu (32).png";
+import { i } from "node_modules/framer-motion/dist/types.d-a9pt5qxk";
 
 
-const categories = ["All", "Necklaces", "Rings", "Vankeelu", "Bangles", "Earrings", "Chains","Bracelets", "Champasarelu","BlackBeads","Vaddanamulu","Choukar"];
+const categories = ["All", "Necklaces", "Rings", "Vankeelu", "Bangles", "Earrings", "Chains","Bracelets", "Champasarelu","BlackBeads","Vaddanamulu","Choukar","LongHaaralu"];
 
 interface GalleryItem {
   id: number;
@@ -147,17 +198,7 @@ interface GalleryItem {
 }
 
 const galleryItems: GalleryItem[] = [
-  { 
-    id: 1, 
-    name: "Royal Heritage Necklace", 
-    category: "Necklaces", 
-    image: goldNecklace,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 5
-  },
+ 
   
   { 
     id: 3, 
@@ -335,17 +376,7 @@ const galleryItems: GalleryItem[] = [
     price: "",
     rating: 5
   },
-  { 
-    id: 19, 
-    name: "Kundan Necklace Set", 
-    category: "Necklaces", 
-    image: goldNecklace,
-    description: "",
-    material: "",
-    weight: "",
-    price: "",
-    rating: 4
-  },
+  
   { 
     id: 20, 
     name: "Solitaire Diamond Ring", 
@@ -1550,6 +1581,494 @@ const galleryItems: GalleryItem[] = [
   name : "Choukar",
   category : "Choukar", 
   image : choukar10,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :130,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces1,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :131,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces2,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :132,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces3,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :133,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces4,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :134,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces5,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :135,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces6,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :136,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces7,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :137,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces8,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+} ,
+{
+  id :138,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces9,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :139,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces10,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :140,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces11,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :141,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces12,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :142,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces13,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :143,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces14,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4
+},
+{
+  id :144,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces15,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :145,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces16,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :146,
+  name : "Necklace ",
+  category : "Necklaces", 
+  image : necklaces17,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :147,
+  name : "Necklace ",
+  category : "Necklaces",   
+  image : necklaces18,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 4  
+},
+{
+  id :148,
+  name : "Long haaralu",
+  category : "LongHaaralu",   
+  image : longhaaralu1,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+} ,
+{
+  id :149,
+  name : "Long haaralu",
+  category : "LongHaaralu",   
+  image : longhaaralu2,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+} ,
+{
+  id :150,
+  name : "Long haaralu",
+  category : "LongHaaralu",   
+  image : longhaaralu3,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :151,
+  name : "Long haaralu",
+  category : "LongHaaralu",   
+  image : longhaaralu4,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+} ,
+{
+  id :152,
+  name : "Long haaralu",
+  category : "LongHaaralu",   
+  image : longhaaralu5,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+
+{
+  id :154,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu7,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5    
+},
+
+{
+  id :156,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu9,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :157,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu10,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :158,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu11,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :159,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu12,
+  description : "", 
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :160,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu13,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5    
+},
+{
+  id :161,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu14,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :162,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu15,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :163,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu16,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :164,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu17,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :165,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu18,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :166,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu19,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :167,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu20,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :168,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu21,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :169,
+  name : "Long haaralu",
+  category : "LongHaaralu", 
+  image : longhaaralu22,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+
+
+{
+  id :172,  
+  name : "Long haaralu",
+  category : "LongHaaralu",
+  image : longhaaralu25,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :173,  
+  name : "Long haaralu",
+  category : "LongHaaralu",
+  image : longhaaralu26,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :174,  
+  name : "Long haaralu",
+  category : "LongHaaralu",
+  image : longhaaralu27,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :175,  
+  name : "Long haaralu",
+  category : "LongHaaralu",
+  image : longhaaralu28,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5
+},
+{
+  id :176,  
+  name : "Long haaralu",
+  category : "LongHaaralu",
+  image : longhaaralu29,
+  description : "",
+  material : "",
+  weight : "",
+  price : "",
+  rating : 5  
+},
+{
+  id :177,
+  name : "Long haaralu",
+  category : "LongHaaralu",
+  image : longhaaralu30,
   description : "",
   material : "",
   weight : "",
