@@ -2239,11 +2239,11 @@ const Gallery = () => {
 
                   {/* Specifications */}
                   <div className="space-y-3 mb-6">
-                    <div className="flex justify-between py-2 border-b border-primary/10">
+                    <div className="flex justify-between py-2 border-b border-primary/0">
                       <span className="font-body text-muted-foreground"></span>
                       <span className="font-body text-foreground font-medium">{selectedItem.material}</span>
                     </div>
-                    <div className="flex justify-between py-2 border-b border-primary/10">
+                    <div className="flex justify-between py-2 border-b border-primary/0">
                       <span className="font-body text-muted-foreground"></span>
                       <span className="font-body text-foreground font-medium">{selectedItem.weight}</span>
                     </div>

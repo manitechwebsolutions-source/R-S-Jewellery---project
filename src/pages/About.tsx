@@ -90,33 +90,40 @@ const About = () => {
                   </p>
                 </div>
               </motion.div>
+<motion.div
+  initial={{ opacity: 0, x: 40 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}
+  className="flex justify-center items-center"
+  style={{ height: '400px' }} // more height to center larger triangle
+>
+  <div className="relative w-96 h-96">
+    {/* Even bigger triangle */}
+    <div
+      className="absolute inset-0"
+      style={{
+        width: 0,
+        height: 0,
+        borderLeft: '192px solid transparent',   // 2 × 96px
+        borderRight: '192px solid transparent',  // 2 × 96px
+        borderBottom: '332px solid #f5f1eb',     // 2 × 166px
+      }}
+    ></div>
 
-              <motion.div
-                initial={{ opacity: 0, x: 40 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8 }}
-                className="grid grid-cols-2 gap-4"
-              >
-                {[
-                  { number: "47+", label: "Years of Excellence" },
-                  { number: "30K+", label: "Happy Customers" },
-                  { number: "1+", label: "Expert Artisans" },
-                  { number: "18+", label: "Unique Designs" },
-                ].map((stat, index) => (
-                  <div
-                    key={index}
-                    className="bg-card rounded-lg p-8 text-center luxury-border"
-                  >
-                    <p className="font-display text-4xl font-bold text-primary">
-                      {stat.number}
-                    </p>
-                    <p className="font-body text-muted-foreground mt-2">
-                      {stat.label}
-                    </p>
-                  </div>
-                ))}
-              </motion.div>
+    {/* Centered big content */}
+    <div
+      className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
+      style={{ width: '100%', color: '#b6863c' }}
+    >
+      <p className="font-display text-8xl font-bold">43+</p>
+      <p className="font-body mt-2 text-muted-foreground text-xl">Years of Excellence</p>
+    </div>
+  </div>
+</motion.div>
+
+
+
             </div>
           </div>
         </section>
